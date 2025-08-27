@@ -33,6 +33,12 @@ const {
 const { author } = details
 
 
-console.log('Song: ', anotherSong);
-console.log('Duration: ', Duration);
-console.log('Author: ', author);
+// console.log('Song: ', anotherSong);
+// console.log('Duration: ', Duration);
+// console.log('Author: ', author);
+
+
+
+const [,, trunks = 'Sin personaje']: string[] = ['Goku', 'Vegueta']
+
+console.error(trunks);
