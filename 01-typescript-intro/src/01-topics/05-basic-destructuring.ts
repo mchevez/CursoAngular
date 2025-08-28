@@ -41,4 +41,4 @@ const { author } = details
 
 const [,, trunks = 'Sin personaje']: string[] = ['Goku', 'Vegueta']
 
-console.error(trunks);
+console.error('personaje 3:', trunks);
