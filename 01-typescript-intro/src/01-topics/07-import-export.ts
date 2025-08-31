@@ -1,4 +1,4 @@
-import type { Product, TaxCalculationOption } from './06-function-destructuring';
+import type { Product } from './06-function-destructuring';
 import  { taxCalculation } from './06-function-destructuring';
 
 
