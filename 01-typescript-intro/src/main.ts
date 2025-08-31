@@ -3,7 +3,7 @@ import './style.css'
 // import './01-topics/03-functions';
 // import './01-topics/04-homework-types';
 // import './01-topics/05-basic-destructuring';
-import './01-topics/06-function-destructuring';
+import './01-topics/07-import-export';
 
 const app = document.querySelector<HTMLDivElement>('#app')!;
 
