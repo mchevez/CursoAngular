@@ -4,7 +4,7 @@ import './style.css'
 // import './01-topics/04-homework-types';
 // import './01-topics/05-basic-destructuring';
 // import './01-topics/08-classes';
-import './01-topics/10-decorators';
+import './01-topics/11-optional-chaining';
 
 
 const app = document.querySelector<HTMLDivElement>('#app')!;
