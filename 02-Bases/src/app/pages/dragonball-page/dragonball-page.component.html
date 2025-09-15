@@ -13,10 +13,10 @@
         (input)="name.set(txtName.value)"
         #txtName
     />
-    <h3>Power:{{power()}}</h3>
+
     <input
       type="number"
-      class="form-control"
+      class="form-control mt-2"
       placeholder="Nivel de Poder"
       [value]="power()"
       (change)="power.set(Number(txtPower.value))"
