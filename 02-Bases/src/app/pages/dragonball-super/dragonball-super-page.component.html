@@ -6,7 +6,7 @@
     <!--dragonball-character-add-->
     <!--aqui-->
     <dragonball-character-add
-      (newCharacter)="addCharacter($event)"
+      (newCharacter)="dragonballServices.addCharacter($event)"
     />
     <!--hasta aqui-->
   </div>
@@ -14,7 +14,7 @@
   <div class="col-12 col-sm-6">
     <dragonball-character-list
       listName="Listado de Personajes Fuertes "
-      [characters]="characters()"
+      [characters]="dragonballServices.characters()"
     />
 
   </div>
